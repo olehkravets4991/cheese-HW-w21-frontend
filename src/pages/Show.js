@@ -29,10 +29,10 @@ function Show(props) {
             placeholder="Details"
             defaultValue={post.details}
           />
-          <button>Update Todo</button>
+          <button>Update Cheese</button>
         </Form>
         <Form method="post" action={`/delete/${post.id}`}>
-            <button>Delete Todo</button>
+            <button>Delete Cheese</button>
         </Form>
       </div>
       <Link to="/">Back to Index</Link>
